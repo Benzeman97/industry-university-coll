@@ -13,7 +13,7 @@ public class GenrelExceptionMapper implements ExceptionMapper<Throwable>{
 	@Override
 	public Response toResponse(Throwable tx) {
 		
-		ErrorMessage error =new ErrorMessage(tx.getMessage(),500,"www.kelly.com");
+		ErrorMessage error =new ErrorMessage(tx.getMessage(),500,"www.benz.com");
 		
 		return Response.status(Status.INTERNAL_SERVER_ERROR).entity(error).build();
 	}
