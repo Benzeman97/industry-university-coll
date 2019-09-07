@@ -13,7 +13,7 @@ public class ExplicitException extends Exception{
 
 	public ExplicitException(String message)
 	{
-		/*ErrorMessage error = new ErrorMessage(message,404,"www.nayan.com");
+		/*ErrorMessage error = new ErrorMessage(message,404,"www.benz.com");
 		  Response res = Response.status(Status.NOT_FOUND).entity(error).build();
 		  throw new WebApplicationException(res);*/
 		super(message);
